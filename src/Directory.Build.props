@@ -1,0 +1,15 @@
+<Project>
+
+  <!--
+    Some component folders contain two project files next to each other (e.g. EAFacade.* and
+    EnterpriseArchitect.* variants that share the same source code and are switched via the
+    EA_FACADE preprocessor symbol). Without separate intermediate folders both projects share
+    obj/project.assets.json, which breaks the restore/build on a clean checkout.
+    Therefore every project gets its own intermediate output folder.
+  -->
+  <PropertyGroup>
+    <BaseIntermediateOutputPath>$(MSBuildProjectDirectory)\obj\$(MSBuildProjectName)\</BaseIntermediateOutputPath>
+    <MSBuildProjectExtensionsPath>$(BaseIntermediateOutputPath)</MSBuildProjectExtensionsPath>
+  </PropertyGroup>
+
+</Project>
