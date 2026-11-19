@@ -1,5 +1,7 @@
 # All Github Components
 
+[![Build solution (Integration Build)](https://github.com/oalt/AllMyComponents-dev/actions/workflows/build.yml/badge.svg)](https://github.com/oalt/AllMyComponents-dev/actions/workflows/build.yml)
+
 Overview repository for all .NET components from [github.com/oalt](https://github.com/oalt).
 Each component is included as a Git submodule in `src/`. The solution `src/AllMyComponents-dev.sln`
 contains the `-dev` projects of these components.
