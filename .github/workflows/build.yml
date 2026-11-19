@@ -14,14 +14,14 @@ jobs:
 
     steps:
       - name: Checkout (including submodules)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           submodules: recursive
 
       - name: Setup .NET
-        uses: actions/setup-dotnet@v4
+        uses: actions/setup-dotnet@v5
         with:
-          dotnet-version: 9.0.x
+          dotnet-version: 10.0.x
 
       - name: Restore
         run: dotnet restore src/AllMyComponents-dev.sln
