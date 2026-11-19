@@ -1,0 +1,30 @@
+name: Build solution (Integration Build)
+
+# Builds the whole solution once to make sure that no compiler errors occur.
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout (including submodules)
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 9.0.x
+
+      - name: Restore
+        run: dotnet restore src/AllMyComponents-dev.sln
+
+      - name: Build
+        run: dotnet build src/AllMyComponents-dev.sln --configuration Release --no-restore
