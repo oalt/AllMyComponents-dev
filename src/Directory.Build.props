@@ -8,8 +8,14 @@
     Therefore every project gets its own intermediate output folder.
   -->
   <PropertyGroup>
-    <BaseIntermediateOutputPath>$(MSBuildProjectDirectory)\obj\$(MSBuildProjectName)\</BaseIntermediateOutputPath>
+    <!-- WPF markup compilation uses a temporary project named <name>_<random>_wpftmp; it must share the obj folder of the real project. -->
+    <_RealProjectName>$([System.Text.RegularExpressions.Regex]::Replace('$(MSBuildProjectName)', '_[A-Za-z0-9]+_wpftmp$', ''))</_RealProjectName>
+    <BaseIntermediateOutputPath>$(MSBuildProjectDirectory)\obj\$(_RealProjectName)\</BaseIntermediateOutputPath>
     <MSBuildProjectExtensionsPath>$(BaseIntermediateOutputPath)</MSBuildProjectExtensionsPath>
+    <!-- Allows restoring/building net*-windows (WPF) projects on non-Windows machines (e.g. the CI build). -->
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <!-- The default globs only exclude the project's own obj subfolder; also exclude the one of the sibling project. -->
+    <DefaultItemExcludes>$(DefaultItemExcludes);obj\**</DefaultItemExcludes>
   </PropertyGroup>
 
 </Project>

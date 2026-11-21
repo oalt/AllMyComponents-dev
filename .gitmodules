@@ -13,7 +13,7 @@
 [submodule "src/LL.MDE.Components.Qvt.Common"]
 	path = src/LL.MDE.Components.Qvt.Common
 	url = https://github.com/oalt/LL.MDE.Components.Qvt.Common.git
-	branch = main
+	branch = dev
 [submodule "src/LL.MDE.Components.Qvt.EnArImport"]
 	path = src/LL.MDE.Components.Qvt.EnArImport
 	url = https://github.com/oalt/LL.MDE.Components.Qvt.EnArImport.git
@@ -41,15 +41,15 @@
 [submodule "src/MDD4All.Bitbucket.DataModels"]
 	path = src/MDD4All.Bitbucket.DataModels
 	url = https://github.com/oalt/MDD4All.Bitbucket.DataModels.git
-	branch = main
+	branch = dev
 [submodule "src/MDD4All.Configuration"]
 	path = src/MDD4All.Configuration
 	url = https://github.com/oalt/MDD4All.Configuration.git
-	branch = main
+	branch = dev
 [submodule "src/MDD4All.Configuration.Views"]
 	path = src/MDD4All.Configuration.Views
 	url = https://github.com/oalt/MDD4All.Configuration.Views.git
-	branch = main
+	branch = dev
 [submodule "src/MDD4All.DME.AssemblyTree"]
 	path = src/MDD4All.DME.AssemblyTree
 	url = https://github.com/oalt/MDD4All.DME.AssemblyTree.git
@@ -69,23 +69,23 @@
 [submodule "src/MDD4All.DevOpsObserver.DataModels"]
 	path = src/MDD4All.DevOpsObserver.DataModels
 	url = https://github.com/oalt/MDD4All.DevOpsObserver.DataModels.git
-	branch = main
+	branch = dev
 [submodule "src/MDD4All.DevOpsObserver.DataProviders.Github"]
 	path = src/MDD4All.DevOpsObserver.DataProviders.Github
 	url = https://github.com/oalt/MDD4All.DevOpsObserver.DataProviders.Github.git
-	branch = main
+	branch = dev
 [submodule "src/MDD4All.DevOpsObserver.StatusCalculation"]
 	path = src/MDD4All.DevOpsObserver.StatusCalculation
 	url = https://github.com/oalt/MDD4All.DevOpsObserver.StatusCalculation.git
-	branch = main
+	branch = dev
 [submodule "src/MDD4All.DevOpsObserver.ViewModels"]
 	path = src/MDD4All.DevOpsObserver.ViewModels
 	url = https://github.com/oalt/MDD4All.DevOpsObserver.ViewModels.git
-	branch = main
+	branch = dev
 [submodule "src/MDD4All.DevOpsObserver.Views"]
 	path = src/MDD4All.DevOpsObserver.Views
 	url = https://github.com/oalt/MDD4All.DevOpsObserver.Views.git
-	branch = main
+	branch = dev
 [submodule "src/MDD4All.EAFacade.DataAccess.Cached"]
 	path = src/MDD4All.EAFacade.DataAccess.Cached
 	url = https://github.com/oalt/MDD4All.EAFacade.DataAccess.Cached.git
@@ -109,7 +109,7 @@
 [submodule "src/MDD4All.EnterpriseArchitect.Logging"]
 	path = src/MDD4All.EnterpriseArchitect.Logging
 	url = https://github.com/oalt/MDD4All.EnterpriseArchitect.Logging.git
-	branch = main
+	branch = dev
 [submodule "src/MDD4All.EnterpriseArchitect.Manipulations"]
 	path = src/MDD4All.EnterpriseArchitect.Manipulations
 	url = https://github.com/oalt/MDD4All.EnterpriseArchitect.Manipulations.git
@@ -125,11 +125,11 @@
 [submodule "src/MDD4All.EnterpriseArchitect.SvgGenerator"]
 	path = src/MDD4All.EnterpriseArchitect.SvgGenerator
 	url = https://github.com/oalt/MDD4All.EnterpriseArchitect.SvgGenerator.git
-	branch = master
+	branch = dev
 [submodule "src/MDD4All.Excel.DataAccess"]
 	path = src/MDD4All.Excel.DataAccess
 	url = https://github.com/oalt/MDD4All.Excel.DataAccess.git
-	branch = main
+	branch = dev
 [submodule "src/MDD4All.FileAccess.Contracts"]
 	path = src/MDD4All.FileAccess.Contracts
 	url = https://github.com/oalt/MDD4All.FileAccess.Contracts.git
@@ -141,15 +141,15 @@
 [submodule "src/MDD4All.Github.DataModels"]
 	path = src/MDD4All.Github.DataModels
 	url = https://github.com/oalt/MDD4All.Github.DataModels.git
-	branch = main
+	branch = dev
 [submodule "src/MDD4All.Jira.DataAccess"]
 	path = src/MDD4All.Jira.DataAccess
 	url = https://github.com/oalt/MDD4All.Jira.DataAccess.git
-	branch = main
+	branch = dev
 [submodule "src/MDD4All.Jira.DataModels"]
 	path = src/MDD4All.Jira.DataModels
 	url = https://github.com/oalt/MDD4All.Jira.DataModels.git
-	branch = main
+	branch = dev
 [submodule "src/MDD4All.JsonSchema"]
 	path = src/MDD4All.JsonSchema
 	url = https://github.com/oalt/MDD4All.JsonSchema.git
@@ -157,7 +157,7 @@
 [submodule "src/MDD4All.Kafka.DataAccess"]
 	path = src/MDD4All.Kafka.DataAccess
 	url = https://github.com/oalt/MDD4All.Kafka.DataAccess.git
-	branch = main
+	branch = dev
 [submodule "src/MDD4All.Localization"]
 	path = src/MDD4All.Localization
 	url = https://github.com/oalt/MDD4All.Localization.git
@@ -165,7 +165,7 @@
 [submodule "src/MDD4All.MongoDB.DataAccess.Generic"]
 	path = src/MDD4All.MongoDB.DataAccess.Generic
 	url = https://github.com/oalt/MDD4All.MongoDB.DataAccess.Generic.git
-	branch = main
+	branch = dev
 [submodule "src/MDD4All.Notes.DataModels"]
 	path = src/MDD4All.Notes.DataModels
 	url = https://github.com/oalt/MDD4All.Notes.DataModels.git
@@ -205,11 +205,11 @@
 [submodule "src/MDD4All.SVG.Conversion"]
 	path = src/MDD4All.SVG.Conversion
 	url = https://github.com/oalt/MDD4All.SVG.Conversion.git
-	branch = master
+	branch = dev
 [submodule "src/MDD4All.SVG.DataModels"]
 	path = src/MDD4All.SVG.DataModels
 	url = https://github.com/oalt/MDD4All.SVG.DataModels.git
-	branch = main
+	branch = dev
 [submodule "src/MDD4All.SimpleUML.DataModels"]
 	path = src/MDD4All.SimpleUML.DataModels
 	url = https://github.com/oalt/MDD4All.SimpleUML.DataModels.git
@@ -217,7 +217,7 @@
 [submodule "src/MDD4All.SpecIF.Connectors.DataStreams"]
 	path = src/MDD4All.SpecIF.Connectors.DataStreams
 	url = https://github.com/oalt/MDD4All.SpecIF.Connectors.DataStreams.git
-	branch = main
+	branch = dev
 [submodule "src/MDD4All.SpecIF.Converters"]
 	path = src/MDD4All.SpecIF.Converters
 	url = https://github.com/oalt/MDD4All.SpecIF.Converters.git
@@ -225,7 +225,7 @@
 [submodule "src/MDD4All.SpecIF.Converters.Jira"]
 	path = src/MDD4All.SpecIF.Converters.Jira
 	url = https://github.com/oalt/MDD4All.SpecIF.Converters.Jira.git
-	branch = main
+	branch = dev
 [submodule "src/MDD4All.SpecIF.DataFactory"]
 	path = src/MDD4All.SpecIF.DataFactory
 	url = https://github.com/oalt/MDD4All.SpecIF.DataFactory.git
@@ -233,15 +233,15 @@
 [submodule "src/MDD4All.SpecIF.DataIntegrator.Contracts"]
 	path = src/MDD4All.SpecIF.DataIntegrator.Contracts
 	url = https://github.com/oalt/MDD4All.SpecIF.DataIntegrator.Contracts.git
-	branch = main
+	branch = dev
 [submodule "src/MDD4All.SpecIF.DataIntegrator.EA"]
 	path = src/MDD4All.SpecIF.DataIntegrator.EA
 	url = https://github.com/oalt/MDD4All.SpecIF.DataIntegrator.EA.git
-	branch = main
+	branch = dev
 [submodule "src/MDD4All.SpecIF.DataIntegrator.KafkaListener"]
 	path = src/MDD4All.SpecIF.DataIntegrator.KafkaListener
 	url = https://github.com/oalt/MDD4All.SpecIF.DataIntegrator.KafkaListener.git
-	branch = main
+	branch = dev
 [submodule "src/MDD4All.SpecIF.DataModels"]
 	path = src/MDD4All.SpecIF.DataModels
 	url = https://github.com/oalt/MDD4All.SpecIF.DataModels.git
@@ -253,7 +253,7 @@
 [submodule "src/MDD4All.SpecIF.DataModels.DiagramMetadata"]
 	path = src/MDD4All.SpecIF.DataModels.DiagramMetadata
 	url = https://github.com/oalt/MDD4All.SpecIF.DataModels.DiagramMetadata.git
-	branch = main
+	branch = dev
 [submodule "src/MDD4All.SpecIF.DataModels.Manipulation"]
 	path = src/MDD4All.SpecIF.DataModels.Manipulation
 	url = https://github.com/oalt/MDD4All.SpecIF.DataModels.Manipulation.git
@@ -261,7 +261,7 @@
 [submodule "src/MDD4All.SpecIF.DataModels.RightsManagement"]
 	path = src/MDD4All.SpecIF.DataModels.RightsManagement
 	url = https://github.com/oalt/MDD4All.SpecIF.DataModels.RightsManagement.git
-	branch = main
+	branch = dev
 [submodule "src/MDD4All.SpecIF.DataProvider.Base"]
 	path = src/MDD4All.SpecIF.DataProvider.Base
 	url = https://github.com/oalt/MDD4All.SpecIF.DataProvider.Base.git
@@ -289,7 +289,7 @@
 [submodule "src/MDD4All.SpecIF.DataProvider.MockupDataStream"]
 	path = src/MDD4All.SpecIF.DataProvider.MockupDataStream
 	url = https://github.com/oalt/MDD4All.SpecIF.DataProvider.MockupDataStream.git
-	branch = main
+	branch = dev
 [submodule "src/MDD4All.SpecIF.DataProvider.MongoDB"]
 	path = src/MDD4All.SpecIF.DataProvider.MongoDB
 	url = https://github.com/oalt/MDD4All.SpecIF.DataProvider.MongoDB.git
@@ -301,23 +301,23 @@
 [submodule "src/MDD4All.SpecIF.DomainModels.Base"]
 	path = src/MDD4All.SpecIF.DomainModels.Base
 	url = https://github.com/oalt/MDD4All.SpecIF.DomainModels.Base.git
-	branch = main
+	branch = dev
 [submodule "src/MDD4All.SpecIF.Generators.DomainModels"]
 	path = src/MDD4All.SpecIF.Generators.DomainModels
 	url = https://github.com/oalt/MDD4All.SpecIF.Generators.DomainModels.git
-	branch = main
+	branch = dev
 [submodule "src/MDD4All.SpecIF.Generators.Metadata"]
 	path = src/MDD4All.SpecIF.Generators.Metadata
 	url = https://github.com/oalt/MDD4All.SpecIF.Generators.Metadata.git
-	branch = main
+	branch = dev
 [submodule "src/MDD4All.SpecIF.Generators.Terms"]
 	path = src/MDD4All.SpecIF.Generators.Terms
 	url = https://github.com/oalt/MDD4All.SpecIF.Generators.Terms.git
-	branch = main
+	branch = dev
 [submodule "src/MDD4All.SpecIF.ServiceDataProvider"]
 	path = src/MDD4All.SpecIF.ServiceDataProvider
 	url = https://github.com/oalt/MDD4All.SpecIF.ServiceDataProvider.git
-	branch = main
+	branch = dev
 [submodule "src/MDD4All.SpecIF.ViewModels"]
 	path = src/MDD4All.SpecIF.ViewModels
 	url = https://github.com/oalt/MDD4All.SpecIF.ViewModels.git
@@ -329,11 +329,11 @@
 [submodule "src/MDD4All.SpecIF.ViewModels.SpecIfEvent"]
 	path = src/MDD4All.SpecIF.ViewModels.SpecIfEvent
 	url = https://github.com/oalt/MDD4All.SpecIF.ViewModels.SpecIfEvent.git
-	branch = main
+	branch = dev
 [submodule "src/MDD4All.Text.DataModels"]
 	path = src/MDD4All.Text.DataModels
 	url = https://github.com/oalt/MDD4All.Text.DataModels.git
-	branch = main
+	branch = dev
 [submodule "src/MDD4All.UI.BlazorComponents"]
 	path = src/MDD4All.UI.BlazorComponents
 	url = https://github.com/oalt/MDD4All.UI.BlazorComponents.git
@@ -345,7 +345,7 @@
 [submodule "src/MDD4All.Xml.DataAccess"]
 	path = src/MDD4All.Xml.DataAccess
 	url = https://github.com/oalt/MDD4All.Xml.DataAccess.git
-	branch = main
+	branch = dev
 [submodule "src/VisNetwork.Blazor.Models"]
 	path = src/VisNetwork.Blazor.Models
 	url = https://github.com/oalt/VisNetwork.Blazor.Models.git
@@ -357,12 +357,52 @@
 [submodule "src/MDD4All.DevOpsObserver.DataProviders.Contracts"]
 	path = src/MDD4All.DevOpsObserver.DataProviders.Contracts
 	url = https://github.com/oalt/MDD4All.DevOpsObserver.DataProviders.Contracts.git
-	branch = main
+	branch = dev
 [submodule "src/MDD4All.DevOpsObserver.DataProviders.Integration"]
 	path = src/MDD4All.DevOpsObserver.DataProviders.Integration
 	url = https://github.com/oalt/MDD4All.DevOpsObserver.DataProviders.Integration.git
-	branch = main
+	branch = dev
 [submodule "src/MDD4All.DevOpsObserver.DataProviders.Bitbucket"]
 	path = src/MDD4All.DevOpsObserver.DataProviders.Bitbucket
 	url = https://github.com/oalt/MDD4All.DevOpsObserver.DataProviders.Bitbucket.git
+	branch = dev
+[submodule "src/SplitJs.Blazor"]
+	path = src/SplitJs.Blazor
+	url = https://github.com/oalt/SplitJs.Blazor.git
+	branch = main
+[submodule "src/Summernote"]
+	path = src/Summernote
+	url = https://github.com/oalt/Summernote.git
+	branch = main
+[submodule "src/VisNetwork.Blazor"]
+	path = src/VisNetwork.Blazor
+	url = https://github.com/oalt/VisNetwork.Blazor.git
+	branch = dev
+[submodule "src/LL.MDE.Components.Qvt.Metamodel.Generator"]
+	path = src/LL.MDE.Components.Qvt.Metamodel.Generator
+	url = https://github.com/oalt/LL.MDE.Components.Qvt.Metamodel.Generator.git
+	branch = dev
+[submodule "src/MDD4All.DevOpsObserver.StatusLightControl.Contracts"]
+	path = src/MDD4All.DevOpsObserver.StatusLightControl.Contracts
+	url = https://github.com/oalt/MDD4All.DevOpsObserver.StatusLightControl.Contracts.git
+	branch = dev
+[submodule "src/MDD4All.DevOpsObserver.StatusLightControl.Hue"]
+	path = src/MDD4All.DevOpsObserver.StatusLightControl.Hue
+	url = https://github.com/oalt/MDD4All.DevOpsObserver.StatusLightControl.Hue.git
+	branch = dev
+[submodule "src/MDD4All.QVT.DataAccess.EnterpriseArchitect"]
+	path = src/MDD4All.QVT.DataAccess.EnterpriseArchitect
+	url = https://github.com/oalt/MDD4All.QVT.DataAccess.EnterpriseArchitect.git
+	branch = dev
+[submodule "src/MDD4All.SpecIF.ConstraintChecker"]
+	path = src/MDD4All.SpecIF.ConstraintChecker
+	url = https://github.com/oalt/MDD4All.SpecIF.ConstraintChecker.git
+	branch = dev
+[submodule "src/MDD4All.SpecIF.DataModels.Integration"]
+	path = src/MDD4All.SpecIF.DataModels.Integration
+	url = https://github.com/oalt/MDD4All.SpecIF.DataModels.Integration.git
+	branch = dev
+[submodule "src/MDD4All.SpecIF.Generators.Vocabulary"]
+	path = src/MDD4All.SpecIF.Generators.Vocabulary
+	url = https://github.com/oalt/MDD4All.SpecIF.Generators.Vocabulary.git
 	branch = dev

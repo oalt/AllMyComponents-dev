@@ -28,6 +28,7 @@ actual numbers.
 
 | Layer | Content |
 |---|---|
+| `Views` | UI views (WPF, Razor/Blazor), e.g. `DevOpsObserver.Views`, `Configuration.Views` |
 | `ViewModels` | View models for UI and services (`SpecIF.ViewModels`, `DevOpsObserver.ViewModels`) |
 | `Components` | Functional components without a layer name of their own: converters, generators, dependency analysis, Enterprise Architect helpers, QVT building blocks, localization, configuration, status calculation, etc. |
 | `DataProviders` | Data providers, e.g. `SpecIF.DataProvider.*` (File, Jira, MongoDB, WebAPI, EA, ...) and `DevOpsObserver.DataProviders.*` (Github, Bitbucket) |
@@ -38,5 +39,9 @@ actual numbers.
 ## Notes
 
 - For each repo the `dev` branch is used if it exists, otherwise the default branch (see `.gitmodules`).
-- Apps, plugins, web and WPF projects are intentionally not part of the solution: only
-  .NET Standard class libraries are included.
+- The solution contains class libraries only (no apps, plugins or services). Besides .NET Standard
+  libraries it also contains libraries targeting `net6.0` (Razor/Blazor components) and
+  `net6.0-windows` / `net461` (WPF, e.g. `FileAccess.WPF`, `Configuration.Views`). Because of the WPF
+  projects the solution is built on Windows (see the GitHub Actions workflow).
+- `Configuration.Views-dev.csproj` was converted to an SDK-style project so that it can be built with the
+  `dotnet` CLI.
