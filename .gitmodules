@@ -414,3 +414,7 @@
 	path = src/SpecIFicator.Plugins.BlazorComponents
 	url = https://github.com/specificator/SpecIFicator.Plugins.BlazorComponents.git
 	branch = dev
+[submodule "src/SpecIFicator.DefaultPlugin"]
+	path = src/SpecIFicator.DefaultPlugin
+	url = https://github.com/specificator/SpecIFicator.DefaultPlugin.git
+	branch = dev
